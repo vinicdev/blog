@@ -1,10 +1,11 @@
+import Article from "./components/Article";
 import Header from "./components/Header";
 
 function App() {
   return (
     <>
       <Header />
-      <h1>Blog</h1>
+      <Article />
     </>
   );
 }
